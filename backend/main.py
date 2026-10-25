@@ -24,7 +24,7 @@ if frontend_url:
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origins=["https://roamly-a-vibe-coded-project.vercel.app",],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
